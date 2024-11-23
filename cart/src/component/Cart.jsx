@@ -10,6 +10,7 @@ function Cart() {
   return (
     <div className='cart'>
         <h1>Cart</h1>
+        <h2>Feature1</h2>
         {cart && cart.items.map((item,index)=> (
           <li key={index}>
           {item.name} - ${item.price}
